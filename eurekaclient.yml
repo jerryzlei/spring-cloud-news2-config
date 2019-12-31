@@ -11,9 +11,9 @@ spring:
   zipkin:
     sender:
       type: web
-    sleuth:
-      sampler:
-        probability: 1
+  sleuth:
+    sampler:
+      probability: 1
 
 management:
   endpoints:
